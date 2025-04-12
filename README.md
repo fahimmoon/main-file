@@ -17,20 +17,21 @@ A modern, responsive download page built with Tailwind CSS and glassmorphism des
 
 ## Quick Deploy Commands
 ```cmd
-# Clone the repository
-git clone https://github.com/yourusername/project-name.git
+# Clone the specific repository
+git clone https://github.com/fahimmoon/main-file.git
 
 # Navigate to project directory
-cd project-name
+cd main-file
 
-# If using Python for local server
-python -m http.server 8000
+# If deploying to GitHub Pages
+git add .
+git commit -m "Update files"
+git push origin main
 
-# If using Node.js
-npx serve
-
-# If using PHP
-php -S localhost:8000
+# For local testing (choose one):
+python -m http.server 8000   # Python
+npx serve                    # Node.js
+php -S localhost:8000       # PHP
 ```
 
 ## Live Demo
