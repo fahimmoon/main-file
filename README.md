@@ -15,5 +15,23 @@ A modern, responsive download page built with Tailwind CSS and glassmorphism des
 3. Add your zip file to the downloads folder
 4. Deploy to your preferred hosting
 
+## Quick Deploy Commands
+```cmd
+# Clone the repository
+git clone https://github.com/yourusername/project-name.git
+
+# Navigate to project directory
+cd project-name
+
+# If using Python for local server
+python -m http.server 8000
+
+# If using Node.js
+npx serve
+
+# If using PHP
+php -S localhost:8000
+```
+
 ## Live Demo
 Access the live demo at: https://fahimmoon.github.io/main-file/
